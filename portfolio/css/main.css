@@ -1,0 +1,81 @@
+/* MOBILE LAYOUT */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap');
+h1, h2, h3, h4 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    word-spacing: 1px;
+}
+a {
+    color: #1C1D1C;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    font-size: 3rem;
+}
+ul {
+    list-style: none;
+    margin-left: -3rem;
+}
+h2 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+.body {
+    margin: 2rem;
+}
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+.goals {
+    background-color: #F5F5F5;
+    border: 1px solid #424142;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: -5px -5px 10px #178179;
+}
+.boxes {
+    display: grid;
+    background-color: #F5F5F5;
+    border: 1px solid #424142;
+    box-shadow: 5px 5px 10px #D52AAF;
+    margin: 2rem;
+}
+.layout {
+    display: grid;
+}
+/* MEDIA QUERIES */
+@media all and (min-width: 800px) {
+    
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    .goals {
+        margin: 2rem 10rem 2rem 10rem;
+        padding: 1rem 2rem 1rem 2rem;
+}
+    .boxes {
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        word-spacing: 1px;
+    }
+}
