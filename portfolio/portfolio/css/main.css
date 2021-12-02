@@ -1,11 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat&display=swap');
 *{
   margin:0;
   padding:0;
 }
+p{
+    font-family:'Lora', serif;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 45rem;
+    hyphens: auto;
+}
 
-body{
+body {
 font-family:'Montserrat', sans-serif;
+}
+a {
+    color:azure;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.current-pg {
+  text-decoration: underline;
+}
+.bf > a{
+  color:#1c1d1c;
+  margin: 5rem;
+}
+
+.bf > a:hover {
+  color: #178179;
+  font-size: 1.5rem;
 }
 
 figcaption {
@@ -14,6 +42,7 @@ figcaption {
 footer{
   margin-top: 100px;
 }
+
 /* HEADER */
 .yellow {
   width:20vw;
@@ -39,7 +68,6 @@ footer{
   height: 100%;
   width: 100%;
 }
-
 /* NAVIGATION LINKS' PROPERTIES*/
 .pink a, .skyblue a, .red a {
   display: block;
@@ -188,7 +216,7 @@ header ul{
   100%{ transform: rotate(360deg);}
 }
 
-.a{
+.a {
   font-weight:900;
   font-size: 50px;
   color:black;
@@ -196,36 +224,43 @@ header ul{
   transform:rotate(360deg) scale(0.5);
   transition: transform 3s ease 0s; 
 }
-@keyframes a{
+@keyframes a {
   0%{color:black;}
   100%{color:white;}
   0% { transform: rotate(0deg); }
   100%{ transform: rotate(360deg);}
 }
 
-
-/* GENERAL */
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
-p {
-    font-family:'Lora', serif;
-    line-height: 1.6;
-    text-align: justify;
-    max-width: 45rem;
-    hyphens: auto;
+/* BREADCRUMBS*/
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  margin-left: 20%;
 }
-a {
-    color:azure;
-    text-decoration: none;
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
 }
-a:hover {
-    text-decoration: none;
-    font-size: 2rem;
+ul.breadcrumb li+li:before {
+  padding: 8px;
 }
-.current-pg {
+ul.breadcrumb li a {
+  color: #9E9F9E;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #33ACE0;
   text-decoration: underline;
+  font-size: 1rem;
 }
+
+
 
 /* INDEX PAGE */
+
+#index figure > a:hover {
+  text-decoration: none;
+}
 .layout div{
   margin-bottom: 2rem;
 }
@@ -287,13 +322,27 @@ a:hover {
     max-height: 100%;
     display:block;
   }
-#illustrations div > a {
+#illustrations .layout > a {
   color: #656565;
+}
+
+#illustrations .bf {
+  margin: 5rem;
+}
+
+#illustrations article > .bf {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
 }
 
 /* PROCESS PAGE*/
 #process h2 {
   color:#EF5B30;
+  margin-top: 2rem;
 }
 #process .responsive {
   display: block;
@@ -357,18 +406,39 @@ footer > p {
 #kiwi article > div {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 #kiwi img {
   max-width: 50%;
   max-height: auto;
   padding: 20px;
 }
+#kiwi article > .bf {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+}
+#kiwi div > figcaption {
+  padding-bottom: 2rem;
+}
+
+
  /* CHEF */
  #chef article > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+}
+#chef article > .bf {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -390,6 +460,10 @@ footer > p {
   display: block;
   margin: 5rem auto;
 }
+#chef div > h2 {
+  margin-top: 6rem;
+  margin-bottom: -2rem;
+}
 
 /* SWIPAW */
 #swipaw article > div {
@@ -405,11 +479,18 @@ footer > p {
   max-height: auto;
   padding: 20px;
 }
+
+
 /* Media Queries*/
 
 /* Start @media 460px */
 @media all and (min-width: 460px) {
-  
+  ul .breadcrumb li {
+    font-size: 10px;
+  }
+  .full > span {
+    font-size: 70%;
+  }
   /* GENERAL */
   p {
     font-size: 1rem;
@@ -433,7 +514,14 @@ footer > p {
 
 /* Start @media 720px */
 @media all and (min-width: 720px) {
-  
+
+.full > span {
+  font-size: 90%;
+}
+ul .breadcrumb li {
+  font-size: 16px;
+}
+
 .pic_and_name {
       width: auto;
   }
@@ -456,7 +544,9 @@ footer > p {
 
 /* Start @media 800px */
 @media all and (min-width: 800px) {
-  
+  .full > span {
+    font-size:xx-large;
+  }
   p {
       font-size: 1rem;
       line-height: 1.5;
