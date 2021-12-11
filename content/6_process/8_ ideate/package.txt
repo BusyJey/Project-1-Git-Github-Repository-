@@ -1,0 +1,3 @@
+Subheading: Ideate
+----
+Text: Now it’s time to brain-storm — take what I learned from the previous stages in my process and begin mapping out potential solutions and opportunities. Whether I’m sketching out experience flow diagrams on a white board or arranging feature set priorities on post-it notes, I like to start at a low-fidelity to let the best ideas emerge freely before building up in complexity and fidelity.

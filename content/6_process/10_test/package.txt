@@ -1,0 +1,4 @@
+Subheading: Test
+----
+Text: Now that we have a well-packaged, cohesive design solution, it’s crucial to gather all our assumptions and design decisions and iterate through testing. There are a variety of approaches to validating a design either qualitatively or quantitatively, and I leverage a mixture of both to measure usability, emotional response, and design effectiveness. At this stage, I’m also checking the hypotheses and planning for future iterations.
+

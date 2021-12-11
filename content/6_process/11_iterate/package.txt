@@ -1,0 +1,3 @@
+Subheading: Iterate
+----
+Text: Nothing is more exciting than when a product or feature comes to life. Of course, this is where the *real* test begins, and the best products are never completely “finished”. Keeping an eye on success metrics such as traffic, conversions, and usability metrics helps me understand how effective the design solutions are in the real world and iterate it if needed.

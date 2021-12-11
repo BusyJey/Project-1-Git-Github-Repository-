@@ -1,0 +1,9 @@
+Title: Chef
+----
+Heading: Chef Recipes
+----
+Intro: Chef Recipes Project is one of the first UI courses I took. Here we were focused on creating a user friendly layout of the mobile app. Our main tool in creating of this project was Figma. We learned how to create the icons from scratch, make components, and also develop <br>a fully-functioning prototype.
+----
+Subheading: 
+----
+Text: this is a test

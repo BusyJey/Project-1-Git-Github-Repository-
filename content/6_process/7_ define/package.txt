@@ -1,0 +1,3 @@
+Subheading: Define
+----
+Text: Once I know where I’m going, I need to figure out the best way to get there. Working with stakeholders, marketing team, and engineering partners, I develop validation plans and design strategies and begin to frame out the shape of the project. How might I solve the core problem for our users? This is also where I begin to identify the metrics and standards by which to evaluate success at each step of the process.

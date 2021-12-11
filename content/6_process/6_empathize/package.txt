@@ -1,0 +1,3 @@
+Subheading: Empathize
+----
+Text: Begin by understanding the problem I am trying to solve, and asking Five W’s (and one H) questions. A process of discovery and thorough research will reveal the business goals, competitor field, target users, and product ecosystem. What information do I have, Why do I need it, and How to find it out? From here, I synthesize the research findings into actionable insights that will inform the strategy ahead.
