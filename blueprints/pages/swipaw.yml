@@ -1,0 +1,9 @@
+title: Default Page
+preset: page
+fields:
+  intro:
+    label: Intro
+    type: textarea
+    size: large
+  heading: 
+    type: text

@@ -1,0 +1,14 @@
+title: About
+
+sections:
+  projects:
+    type: pages
+    layout: cards
+    image:
+      ration: 4/5
+      cover: true
+
+
+
+
+

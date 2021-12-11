@@ -1,0 +1,14 @@
+title: project
+  preset: page
+fields:
+  heading:
+    type: text
+  subheading:
+    type: text
+  intro: 
+    type: text
+
+  text:
+    label: Text
+    type: textarea
+    size: large

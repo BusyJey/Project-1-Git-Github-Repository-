@@ -1,0 +1,8 @@
+Title: Home
+----
+Heading:HI THERE, I'M YULIA!
+----
+Subheading:I’m East Bay based UI/UX Designer always eager to find elegant solutions
+connecting users, business, and technology!
+----
+Caption: Test Caption
